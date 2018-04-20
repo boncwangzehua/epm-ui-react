@@ -1,24 +1,69 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
+/logs/
+*.gitignore
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
+# Dependency directories
+src/main/frontend/node_modules/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Logs
+logs
+*.log
+npm-debug.log*
+
+
+# Bower dependency directory (https://bower.io/)
+src/main/resources/static/bower_components/
+
+# compile views
+src/main/resources/static/views
+
+# JetBrains IDEs
+.idea/
 *.iml
-*.ipr
+#html.js && component.js && component.min.js
+src/main/resources/frame
+src/main/resources/static/components
+src/main/resources/static/workbench_components
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+# Automatically created by OS
+desktop.ini
+Thumbs.db
+.DS_store
+
+##ignore this file##
+/target/
+
+.classpath
+.project
+.settings     
+ ##filter databfile、sln file##
+*.mdb  
+*.ldb  
+*.sln   
+##class file##
+*.com  
+*.class  
+*.dll  
+*.exe  
+*.o  
+*.so 
+# compression file
+*.7z  
+*.dmg  
+*.gz  
+*.iso  
+*.jar  
+*.rar  
+*.tar  
+*.zip  
+*.via
+*.tmp
+*.err
+# OS generated files #  
+.DS_Store  
+.DS_Store?  
+._*  
+.Spotlight-V100  
+.Trashes  
+Icon?  
+ehthumbs.db  
+Thumbs.db 

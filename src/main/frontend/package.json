@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "epm-ui": "^0.4.18",
-    "epm-ui-css":"http://code.bonc.com.cn/nexus/repository/npm-internal/epm-ui-css/-/epm-ui-css-0.1.13.tgz",
+    "epm-ui-css": "http://code.bonc.com.cn/nexus/repository/npm-internal/epm-ui-css/-/epm-ui-css-0.1.13.tgz",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
