@@ -35,4 +35,10 @@ public class MainController {
 	public List<Map<String,Object>> Json(){
 		return userService.findAllUser();
 	}
+	
+	@ResponseBody
+	@RequestMapping(value="/abc")
+	public String abc(){
+		return "[{name:petter}]";
+	}
 }
